@@ -1,0 +1,12 @@
+# Use of this file to define which db and collections to connect to do DB validations against API testing.
+
+# DB 1
+Catalog:
+    - Collection 1
+    - Collection 2
+# DB2 2
+Promotion:
+    - Collection 1
+    - Collection 2
+#    - Optional
+    - Collection 3

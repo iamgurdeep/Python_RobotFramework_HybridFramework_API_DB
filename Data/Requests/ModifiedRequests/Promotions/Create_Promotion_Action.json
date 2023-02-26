@@ -1,0 +1,15 @@
+{
+  "@baseType": "Award",
+  "@type": "type",
+  "actionCardinality": 1011,
+  "actionObjectId": "promotionss",
+  "actionType": "Add Product",
+  "actionValue": 2,
+  "applicationDuration": 365,
+  "externalID": "ext_1234",
+  "maxActionValue": 5,
+  "priceId": "pid_223",
+  "priceType": "Allowance",
+  "priority": 1,
+  "recurringChargePeriodType": "Week"
+}

@@ -1,0 +1,35 @@
+Framework's Base Location being used is D:\Catalog
+Catalog Management TestCase Execution Starting.Please Wait....
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tax                                                                    
+==============================================================================
+TC-01-Create Tax                                                      {"id":"tax_automationtest-tx_fd9ue4f","name":"Tax_Automationtest","taxType":"GST","taxCategory":"Indian","definesExemption":false,"taxRate":20.0,"taxAmount":{"unit":"inr","value":10.0},"createdOn":"2023-02-10T10:22:06.743Z","createdBy":"rel_admin","lastUpdate":"2023-02-10T10:22:06.743Z","lastUpdatedBy":"rel_admin","validFor":{"endDateTime":"2025-12-22T12:14:14.118Z","startDateTime":"2025-12-22T12:14:14.118Z"}}
+{'id': 'tax_automationtest-tx_fd9ue4f', 'name': 'Tax_Automationtest', 'taxType': 'GST', 'taxCategory': 'Indian', 'definesExemption': False, 'taxRate': 20.0, 'taxAmount': {'unit': 'inr', 'value': 10.0}, 'createdOn': '2023-02-10T10:22:06.743Z', 'createdBy': 'rel_admin', 'lastUpdate': '2023-02-10T10:22:06.743Z', 'lastUpdatedBy': 'rel_admin', 'validFor': {'endDateTime': '2025-12-22T12:14:14.118Z', 'startDateTime': '2025-12-22T12:14:14.118Z'}}
+Tax_Automationtest
+tax_automationtest-tx_fd9ue4f
+Data to check ['catalog_agg_projection']
+['Tax_Automationtest', 'GST', 'Indian']
+Tax_Automationtest found for in catalog_agg_projection in DB
+GST found for in catalog_agg_projection in DB
+Indian found for in catalog_agg_projection in DB
+{"id":"tax_automationtest-tx_fd9ue4f","name":"Tax_Automationtestupdated","taxType":"GST","taxCategory":"Indian","definesExemption":false,"taxRate":20.0,"taxAmount":{"unit":"inr","value":50.0},"lastUpdate":"2023-02-10T10:22:12.927Z","lastUpdatedBy":"rel_admin","validFor":{"endDateTime":"2025-12-22T12:14:14.118Z","startDateTime":"2025-12-22T12:14:14.118Z"}}
+{'id': 'tax_automationtest-tx_fd9ue4f', 'name': 'Tax_Automationtestupdated', 'taxType': 'GST', 'taxCategory': 'Indian', 'definesExemption': False, 'taxRate': 20.0, 'taxAmount': {'unit': 'inr', 'value': 50.0}, 'lastUpdate': '2023-02-10T10:22:12.927Z', 'lastUpdatedBy': 'rel_admin', 'validFor': {'endDateTime': '2025-12-22T12:14:14.118Z', 'startDateTime': '2025-12-22T12:14:14.118Z'}}
+Tax_Automationtestupdated
+Data to check ['catalog_agg_projection']
+['Tax_Automationtestupdated', 'GST', 'Indian']
+Tax_Automationtestupdated found for in catalog_agg_projection in DB
+GST found for in catalog_agg_projection in DB
+Indian found for in catalog_agg_projection in DB
+TAX Value before update is : "Tax_Automationtest"and after update is "Tax_Automationtestupdated"
+"Tax Deleted succesfully"
+| PASS |
+------------------------------------------------------------------------------
+Suites.Tax                                                            | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  D:\Catalog\Results\pabot_results\0\output.xml

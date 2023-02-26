@@ -1,0 +1,19 @@
+{
+  "@baseType": "promotion",
+  "name": "Metaverse Promotion Update",
+  "@type": "promotion",
+  "lifecycleStatus": "Design",
+  "type": "Award",
+  "validFor": {
+    "endDateTime": "2025-08-06T06:49:15.957Z",
+    "startDateTime": "2025-05-06T06:49:15.957Z"
+  },
+  "coupon": {
+    "isCoupon": false
+  },
+  "createdBy": "rel_admin",
+  "externalID": "exid_1011",
+  "description": "No Description",
+  "promoApplicationLevel": "cart",
+  "promotionClassification": "exclusive"
+}
